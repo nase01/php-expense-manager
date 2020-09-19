@@ -26,14 +26,19 @@ Features:
 Installation:
 
 1. Clone or Extract downloaded zip to your selected directory
-2. Add your database credential on .env file 
-3. CD to project directory
-4. Run: composer update
+2. Open/CD project directory 
+3. Rename .env.example to .env
+4. Edit APP-NAME and Your database credential on .env file
+5. Run: composer update
 6. Run: npm install
 7. Run: php artisan migrate
-8. Run: php artisan serve
-9. Access on http://127.0.0.1:8000/
-10. Login using admin@expense-manager.com, password: super123
+8. Run: php artisan key:generate
+9. Run: php artisan serve
+10. Access on http://127.0.0.1:8000/
+11. Login using admin@expense-manager.com, password: super123
+
+You are all set now to use the application!
+
 
 
 
